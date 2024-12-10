@@ -7,7 +7,7 @@ Program
                 A
         Matrix
             Row
-                (2,2)
+                (9,2)
             Row
                 (3,4)
     MatrixAssignment
@@ -18,7 +18,7 @@ Program
             Row
                 (5,6)
             Row
-                (7,8)
+                (10,8)
     MatrixMultiplicationAssignment
         ID
             Value
@@ -36,21 +36,3 @@ Program
         ID
             Value
                 C
-    DisplayStatement
-        Display
-            display
-        ID
-            Value
-                A
-    DisplayStatement
-        Display
-            display
-        ID
-            Value
-                B
-    DisplayStatement
-        Display
-            display
-        ID
-            Value
-                B

@@ -12,12 +12,12 @@ void printMatrix(int rows, int cols, int matrix[rows][cols]) {
 
 int main() {
     int A[2][2] = {
-    {2,2},
+    {9,2},
     {3,4}
 };
     int B[2][2] = {
     {5,6},
-    {7,8}
+    {10,8}
 };
     int C[2][2] = {0};
     for (int i = 0; i < 2; i++) {
@@ -29,9 +29,5 @@ int main() {
     }
     printf("Matrix C:\n");
     printMatrix(2, 2, C);
-    printf("Matrix A:\n");
-    printMatrix(2, 2, A);
-    printf("Matrix B:\n");
-    printMatrix(2, 2, B);
     return 0;
 }
