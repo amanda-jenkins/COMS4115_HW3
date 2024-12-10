@@ -1,0 +1,55 @@
+Generated Abstract Syntax Tree (AST):
+Program
+    MatrixAssignment
+        ID
+            Value
+                A
+        Matrix
+            Row
+                (2,2)
+            Row
+                (3,4)
+    MatrixAssignment
+        ID
+            Value
+                B
+        Matrix
+            Row
+                (5,6)
+            Row
+                (7,8)
+    MatrixMultiplicationAssignment
+        ID
+            Value
+                C
+        Multiplication
+            Operand1
+                ID (A)
+            Operator
+                x
+            Operand2
+                ID (B)
+    DisplayStatement
+        Display
+            display
+        ID
+            Value
+                C
+    DisplayStatement
+        Display
+            display
+        ID
+            Value
+                A
+    DisplayStatement
+        Display
+            display
+        ID
+            Value
+                B
+    DisplayStatement
+        Display
+            display
+        ID
+            Value
+                B
